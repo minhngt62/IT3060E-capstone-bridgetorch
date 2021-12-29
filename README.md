@@ -11,7 +11,7 @@ We solved **Generalized Bridge and Torch problem** with *n people* and *random s
 - Breadth First Search
 - Depth First Search
 
-Follow our documents for further infomations.
+Follow our document [report.pdf](https://github.com/minhngt62/IT3060E-capstone-bridgetorch/blob/main/docs/report.pdf) for further infomations.
 
 
 
