@@ -1,6 +1,6 @@
 from time import time
-import GraphSearch
-import TreeSearch
+from GraphSearch import GraphSearch
+from TreeSearch import TreeSearch
 
 
 class Solver:

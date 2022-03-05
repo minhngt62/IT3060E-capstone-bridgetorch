@@ -16,8 +16,8 @@ class Node:
         self.state = state 
         self.parent = parent 
         self.action = action
-        self.depth = parent.depth + 1
-        self.path_cost = parent.path_cost + problem.findStepCost(action)
+        self.depth = parent.depth + 1 if parent else 0
+        self.path_cost = parent.path_cost + problem.findStepCost(action) if parent else 0
         self.heuristic = None
     
     

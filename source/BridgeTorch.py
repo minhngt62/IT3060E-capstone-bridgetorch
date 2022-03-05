@@ -1,4 +1,4 @@
-import Problem
+from Problem import Problem
 
 import itertools
 import bisect
@@ -33,7 +33,6 @@ class BridgeTorch(Problem):
         '''
         cur_state = state[:]
         transitions = []
-        Act(state[-1], abs(state[-1] - 1))
 
         def Act(origin, goal):
             if origin == 0 and len(cur_state) == sum(cur_state) + 2:
@@ -64,6 +63,7 @@ class BridgeTorch(Problem):
                         action = [[person_z], (origin, goal)] # form of action
                         transitions.append((action, result_state)) # form of transition
 
+        Act(state[-1], abs(state[-1] - 1))
         return transitions
 
 
@@ -131,15 +131,15 @@ class BridgeTorch(Problem):
         if len(node.action[0]) == 2:
             person1, person2 = node.action[0]
             if start == 0:
-                return self.Solution(node.parent) + f'{person1+1} {person2+1} ->\n'
+                return self.findSolution(node.parent) + f'{person1+1} {person2+1} ->\n'
             else:
-                return self.Solution(node.parent) + f'{person1+1} {person2+1} <-\n'
+                return self.findSolution(node.parent) + f'{person1+1} {person2+1} <-\n'
         elif len(node.action[0]) == 1:
             person1 = node.action[0][0]
             if start == 0:
-                return self.Solution(node.parent) + f'{person1+1} ->\n'
+                return self.findSolution(node.parent) + f'{person1+1} ->\n'
             else:
-                return self.Solution(node.parent) + f'{person1+1} <-\n'
+                return self.findSolution(node.parent) + f'{person1+1} <-\n'
 
 
     def testGoal(self, state):
