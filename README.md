@@ -27,7 +27,7 @@ The team consists of four members:
 - Kiều Anh Văn
 
 
-Follow our document [report.pdf](https://github.com/minhngt62/IT3060E-capstone-bridgetorch/blob/main/docs/report.pdf) for further infomations.
+Follow our document [`report.pdf`](https://github.com/minhngt62/IT3060E-capstone-bridgetorch/blob/main/docs/report.pdf) for further infomations.
 
 
 
