@@ -5,7 +5,7 @@ import itertools
 import bisect
 
 
-class BridgeTorch:
+class BridgeTorch(Problem):
     def __init__(self, durations, init_state, objective=None):
         '''
         Model the problem Bridge and Torch follows 2 parameters:
@@ -145,6 +145,7 @@ class BridgeTorch:
 
     def testGoal(self, state):
         return state[:-1] == self.goal
+
 
     def checkObjective(self, node):
         if self.objective == None:
