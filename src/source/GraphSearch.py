@@ -1,5 +1,5 @@
-from Root import Root
-from Node import Node
+from .Root import Root
+from .Node import Node
 
 
 class GraphSearch:
