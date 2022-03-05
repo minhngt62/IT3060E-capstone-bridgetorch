@@ -1,5 +1,5 @@
-from source.Solver import Solver
-from source.BridgeTorch import BridgeTorch
+from src.source.Solver import Solver
+from src.source.BridgeTorch import BridgeTorch
 
 
 durations = '1 2 5 8'
