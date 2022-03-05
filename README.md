@@ -16,7 +16,7 @@ This project even steps further, solving the general Bridge and Torch problem wi
   - `pip install notebook`
 
 # Run
-The whole program can be run quickly through `run.py` or the notebook.
+The whole program can be run quickly through `.\run.py` or the notebook.
 
 # Contributors
 The team consists of four members:
@@ -27,7 +27,7 @@ The team consists of four members:
 - Kiều Anh Văn
 
 
-Follow our document [`report.pdf`](https://github.com/minhngt62/IT3060E-capstone-bridgetorch/blob/main/docs/report.pdf) for further infomations.
+Follow our document [`docs\report.pdf`](https://github.com/minhngt62/IT3060E-capstone-bridgetorch/blob/main/docs/report.pdf) for further infomations.
 
 
 
