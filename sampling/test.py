@@ -1,10 +1,15 @@
 from random import randrange
 import csv
 
+# add package path
+import sys
+import os
+sys.path.insert(0, os.getcwd())
+
 from src.source.BridgeTorch import BridgeTorch
 from src.source.Solver import Solver
 
-data_address = f'master\\performance\\'
+data_address = f'master\\performance\\' # address the folder to store the sampling data
 
 
 def calculateAverage(num):
@@ -143,9 +148,3 @@ class Test:
         self.writeData(inp_size, datatype='run')
         self.writeData(inp_size, datatype='time')
         self.writeData(inp_size, datatype='space')
-
-
-if __name__ == '__main__':
-    for inp_size in range(90, 101):
-        mass_sampling = Test(n_samples=100) # For each size, 100 sample tests are put into practice
-        mass_sampling.Sampling(inp_size)

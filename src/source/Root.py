@@ -1,4 +1,4 @@
-from .Node import Node
+from src.source.Node import Node
 
 
 class Root(Node):

@@ -1,4 +1,4 @@
-from .GraphSearch import GraphSearch
+from src.source.GraphSearch import GraphSearch
 
 
 class TreeSearch(GraphSearch):

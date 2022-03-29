@@ -1,6 +1,7 @@
+from src.source.GraphSearch import GraphSearch
+from src.source.TreeSearch import TreeSearch
+
 from time import time
-from .GraphSearch import GraphSearch
-from .TreeSearch import TreeSearch
 
 
 class Solver:
@@ -106,3 +107,4 @@ class Solver:
         
         runtime = end - start
         return solver.result, runtime, solver.time_complexity, solver.max_space_complexity
+
