@@ -16,7 +16,7 @@ This project even steps further, solving the general Bridge and Torch problem wi
   - `pip install notebook`
 
 # Run
-The whole program can be run quickly through `.\run.py` or the notebook.
+The whole program can be run quickly through `.\main.py` or the notebook.
 
 # Contributors
 The team consists of five members:
