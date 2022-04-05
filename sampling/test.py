@@ -6,8 +6,8 @@ import sys
 import os
 sys.path.insert(0, os.getcwd())
 
-from src.source.BridgeTorch import BridgeTorch
-from src.source.Solver import Solver
+from search.BridgeTorch import BridgeTorch
+from search.Solver import Solver
 
 data_address = f'master\\performance\\' # address the folder to store the sampling data
 

@@ -1,4 +1,4 @@
-from src.source.Problem import Problem
+from .Problem import Problem
 
 import itertools
 import bisect

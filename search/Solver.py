@@ -1,5 +1,5 @@
-from src.source.GraphSearch import GraphSearch
-from src.source.TreeSearch import TreeSearch
+from .GraphSearch import GraphSearch
+from .TreeSearch import TreeSearch
 
 from time import time
 
